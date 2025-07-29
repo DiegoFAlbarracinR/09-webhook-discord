@@ -5,5 +5,6 @@ export const envs = {
 
     PORT: get('PORT').required().asPortNumber(),
     DISCORD_WEBHOOK_URK: get('DISCORD_WEBHOOK_URK').required().asString(),
-
+    SECRET_TOKEN: get('SECRET_TOKEN').required().asString(),
+    
 }
